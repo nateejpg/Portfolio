@@ -1,5 +1,33 @@
 
+@media screen and (max-width: 1366px) {
 
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+}
 
 @media screen and (max-width: 600px) {
   #contact,
@@ -54,4 +82,16 @@
   .text-container {
     text-align: justify;
   }
+
+.section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+}
+
+.fa{
+  font-size: 30px;
+}
 }
