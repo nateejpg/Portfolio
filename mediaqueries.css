@@ -73,6 +73,10 @@
     gap: 10px;
 }
 
+.wrappedContainer .links a:hover{
+  height: 35px;
+}
+
 .technologies-container {
     height: 50px;
     gap: 5px
