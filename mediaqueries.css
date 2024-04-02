@@ -62,7 +62,16 @@
 }
 
 .fa{
-  font-size: 30px;
+  font-size: 22px;
+}
+
+.technologies {
+    gap: 10px;
+}
+
+.technologies-container {
+    height: 50px;
+    gap: 5px
 }
 
 #experience,
