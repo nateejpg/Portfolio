@@ -65,6 +65,10 @@
   font-size: 22px;
 }
 
+.fa:hover{
+  font-size: 22px;
+}
+
 .technologies {
     gap: 10px;
 }
