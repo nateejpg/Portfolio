@@ -832,7 +832,7 @@ nav {
 @media screen and (max-width: 1600px) {
   
   .fa {
-    font-size: 100px;
+    font-size: 80px;
 }
 
 .container {
@@ -854,5 +854,11 @@ nav {
 .arrow {
   position: absolute;
   right: -5rem;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: -40px;
 }
 }
