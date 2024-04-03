@@ -62,15 +62,15 @@
 }
 
 .fa{
-  font-size: 22px;
+  font-size: 30px;
 }
 
 .fa:hover{
-  font-size: 22px;
+  font-size: 32px;
 }
 
 .technologies {
-    gap: 10px;
+    gap: 5px;
 }
 
 .wrappedContainer .links a:hover{
@@ -78,7 +78,7 @@
 }
 
 .technologies-container {
-    height: 50px;
+    height: 80px;
     gap: 5px
 }
 
@@ -111,5 +111,14 @@
 
 .container {
   padding-top: 0;
+}
+
+.about-details-container h2 {
+  font-size: 15px;
+}
+
+.details-container {
+  width: 210px;
+  gap: 8px;
 }
 }
