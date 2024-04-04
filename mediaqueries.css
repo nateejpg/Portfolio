@@ -80,7 +80,7 @@
 .technologies-container {
     height: 80px;
     gap: 5px;
-    padding: 30px;
+    padding: 0px 30px;
 }
 
 #experience,
