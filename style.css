@@ -377,6 +377,10 @@ section {
   text-align: center;
 }
 
+.details-container h3{
+  font-weight: 300;
+}
+
 .section-container {
   gap: 10rem;
   height: 80%;
@@ -404,8 +408,9 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
-  padding: 0px 20px;
+  padding: 0px 100px;
 }
+
 
 .technologies{
   width: 100%;
@@ -865,4 +870,11 @@ nav {
     right: -5rem;
     bottom: -40px;
 }
+
+.details-container h3{
+  font-size: 13px;
+  font-weight: 300;
+}
+
+
 }

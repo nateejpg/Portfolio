@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   #contact,
   footer {
     height: 10vh;
@@ -121,4 +121,9 @@
   width: 210px;
   gap: 8px;
 }
+
+.footer a{
+  font-size: 15px;
+}
+
 }
