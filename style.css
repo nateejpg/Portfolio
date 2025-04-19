@@ -144,8 +144,9 @@ nav a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 4vh;
-  height: 96vh;
+  height: 85vh;
+  display: flex;
+  align-items: center;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -191,7 +192,7 @@ section {
 }
 
 .title {
-  font-size: 4rem;
+  font-size: 3.5rem;
   text-align: center;
 }
 
@@ -399,8 +400,9 @@ section {
 
 
 .technologies-container {
-  height: 350px;
+  height: 15vh;
   display: flex;
+  width: 50vw;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -425,7 +427,7 @@ section {
 }
 
 .fa{
-  font-size: 120px;
+  font-size: 80px;
   transition: 0.4s;
 
 
@@ -433,7 +435,7 @@ section {
 
 .fa:hover{
   cursor: pointer;
-  font-size: 135px;
+  font-size: 100px;
 
 }
 
@@ -458,9 +460,10 @@ section {
 #experience {
   position: relative;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
+  gap: 5vh;
 }
 
 .experience-details-container {
@@ -585,12 +588,9 @@ footer p {
 
 }
 
-.certificatesWrapper{
-}
-
 .certificatesWrapper img{
-  width: 40vw;
-  height: 60vh;
+  width: 30vw;
+  height: 40vh;
 }
 
 .wrappedContainer{
@@ -639,7 +639,7 @@ footer p {
 
 .wrappedContainer a img{
   width: 63vh;
-  height: 43vh;
+  height: 40vh;
   border-radius: 5px;
 }
 
