@@ -624,8 +624,8 @@ footer p {
   align-items: center;
   text-align: center;
   justify-content: center;
-  min-width: 30vw;
-  min-height: 50vh;
+  width: 31vw;
+  height: 65vh;
   border: 2px solid black;
   border-radius: 1rem;
   box-shadow: 10px 8px 10px 5px #c6c6c6;
@@ -643,6 +643,11 @@ footer p {
 .wrapper .wrappedContainer .titleContainer .imageWrapper{
   width: 10%;
 }
+.wrapper .wrappedContainer .titleContainer .imageWrapper button{
+  background: none;
+  outline: none;
+  border: none;
+}
 
 .wrapper .wrappedContainer .titleContainer .titleWrapper{
   width: 80%;
@@ -652,7 +657,28 @@ footer p {
   width: 50px;
   height: 50px;
   filter: invert();
+  transition: 0.3s;
+  cursor: pointer;
 }
+
+.hiddenFeature{
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hiddenFeature p{
+  color: white;
+  font-size: 20px;
+}
+
+.wrapper .titleContainer img:hover{
+  width: 55px;
+  height: 55px;
+  filter: invert();
+}
+
 .wrappedContainer:hover{
   cursor: pointer;
 }
@@ -672,7 +698,6 @@ footer p {
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
-  overflow-x: auto;
   gap: 35px;
 }
 
