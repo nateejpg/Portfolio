@@ -750,10 +750,6 @@ filter: invert(0.7);
     font-size: 30px;
   }
 
-  .section__pic-container img {
-    display: none;
-}
-
 .section__pic-container .links img{
   display: flex;
   width: 50px;
