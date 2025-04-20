@@ -285,6 +285,31 @@ section {
   gap: 10px;
 }
 
+.upper-links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.upper-links img{
+  width: 90px;
+  height: 90px;
+}
+
+.bottom-links{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  gap: 20px;
+}
+.bottom-links h1{
+
+  font-size: 20px;
+
+}
+
 .links{
   display: flex;
   align-items: center;
@@ -461,9 +486,9 @@ section {
   position: relative;
   display: flex;
   align-items: center;
-  flex-direction: column;
   justify-content: center;
-  gap: 5vh;
+  gap: 4vh;
+  height: 100vh;
 }
 
 .experience-details-container {
@@ -589,8 +614,8 @@ footer p {
 }
 
 .certificatesWrapper img{
-  width: 30vw;
-  height: 40vh;
+    width: 35vw;
+    height: 45vh;
 }
 
 .wrappedContainer{
@@ -638,7 +663,7 @@ footer p {
 }
 
 .wrappedContainer a img{
-  width: 63vh;
+  width: 31vw;
   height: 40vh;
   border-radius: 5px;
 }
