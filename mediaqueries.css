@@ -69,6 +69,10 @@
     gap: 5px;
 }
 
+.wrapper{
+  gap: 1px;
+}
+
 .wrappedContainer .links a:hover{
   height: 35px;
 }
@@ -135,6 +139,17 @@
 
 .bottom-links h1 {
   font-size: 15px;
+}
+
+.hiddenFeature p {
+  color: white;
+  font-size: 11px;
+  padding: 0;
+  font-weight: 100;
+}
+
+.hiddenFeature {
+  height: 100%;
 }
 
 }

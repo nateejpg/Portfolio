@@ -6,9 +6,17 @@ function toggleCard (button) {
     const div = wrappedImg.querySelector('div');
 
     const isHidden = image.style.display === 'none';
+    const isDivVisible = div.style.display === 'flex';
 
-    image.style.display = isHidden ? "flex" : "none";
-    div.style.display = isHidden ? "none" : "flex";
+    if(window.innerWidth < 1100){
+
+        image.style.display = isHidden ? "flex" : "none";
+        div.style.display = isDivVisible ? "none" : "flex"
+
+    }else{
+        image.style.display = isHidden ? "flex" : "none";
+        div.style.display = isHidden ? "none" : "flex";
+    }
+
 
 }
-
