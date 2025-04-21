@@ -43,7 +43,7 @@
     font-size: 1.25rem;
   }
   .title {
-    font-size: 2rem;
+    font-size: 1rem;
   }
   .text-container {
     text-align: justify;
@@ -53,7 +53,7 @@
     width: auto;
     height: 46vw;
     justify-content: center;
-    gap: 20px;
+    gap: 5px;
     padding-top: 10px;
 }
 
@@ -80,6 +80,7 @@
 }
 
 #experience,
+
   .experience-details-container {
     margin-top: 2rem;
   }
@@ -120,6 +121,19 @@
 }
 
 .footer a{
+  font-size: 15px;
+}
+
+
+#experience {
+
+  gap: 0vh;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.bottom-links h1 {
   font-size: 15px;
 }
 
