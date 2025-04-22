@@ -43,19 +43,11 @@
     font-size: 1.25rem;
   }
   .title {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .text-container {
     text-align: justify;
   }
-
-.section__pic-container {
-    width: auto;
-    height: 46vw;
-    justify-content: center;
-    gap: 5px;
-    padding-top: 10px;
-}
 
 .fa{
   font-size: 30px;
@@ -80,7 +72,7 @@
 .technologies-container {
     height: 80px;
     gap: 5px;
-    padding: 0px 30px;
+    padding: 0px 23vw;
 }
 
 #experience,
@@ -104,7 +96,6 @@
   }
   .section__pic-container {
     width: 275px;
-    height: 275px;
     margin: 0 auto 2rem;
   }
   .about-containers {
@@ -150,6 +141,11 @@
 
 .hiddenFeature {
   height: 100%;
+}
+
+
+.about-details-container h1 {
+  font-size: 50px;
 }
 
 }

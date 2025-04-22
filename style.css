@@ -165,7 +165,13 @@ section {
   height: 80vh;
 }
 
-.section__pic-container img {
+.section__pic-container {
+     width: 275px;
+     height: 275px;
+     margin: 0 auto 2rem;
+} 
+    
+  img {
   width: 500px;
   height: 500px;
   display: flex;
@@ -293,8 +299,8 @@ section {
 }
 
 .upper-links img{
-  width: 90px;
-  height: 90px;
+  width: 15vw;
+  height: 30vh;
 }
 
 .bottom-links{
@@ -560,12 +566,12 @@ article .icon {
 
 /* FOOTER SECTION */
 
-footer {
-  height: 26vh;
+.footer {
+  height: 7vh;
   margin: 0 1rem;
 }
 
-footer p {
+.footer p {
   text-align: center;
 }
 
@@ -773,7 +779,9 @@ filter: invert(0.7);
 @media screen and (max-width: 992px){
 
   .idiomas{
+    height: 100px;
     width: 300px;
+    margin: 2rem;
   }
 
   .fa{
@@ -810,6 +818,7 @@ filter: invert(0.7);
 .about-details-container img {
   width: 50px;
   height: 50px;
+  margin: 0;
 }
 
 .about-details-container h2 {
@@ -852,7 +861,7 @@ nav {
 }
 
 .wrappedContainer h1 {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 400;
 }
 
@@ -862,8 +871,8 @@ nav {
 }
 
 .wrappedContainer {
-  width: 190px;
-  height: 350px;
+  width: 43vw;
+  height: 270px;
   padding: 10px;
 }
 
@@ -915,8 +924,12 @@ nav {
     justify-content: center;
 }
 
-.languages h2 {
+.idiomas h1{
   font-size: 20px;
+}
+
+.languages h2 {
+  font-size: 15px;
   font-weight: 300;
 }
 
@@ -935,14 +948,18 @@ nav {
 }
 
 .upper-links img {
-  width: 30px;
-  height: 30px;
+  display: none;
 }
 
 .certificatesWrapper img {
   width: 90vw;
   height: 30vh;
 }
+
+.section__pic-container {
+  width: 275px;
+  margin: 0 auto 2rem;
+} 
 
 }
 
@@ -995,12 +1012,17 @@ nav {
 
 .wrappedContainer a img {
   width: 100%;
-  height: 20vh;
+  height: 14vh;
   border-radius: 5px;
 }
 
 #projects {
   padding: 1px;
+}
+
+.wrappedContainer .wrappedIcons img{
+  width: 40px;
+  height: 40px;
 }
 
 

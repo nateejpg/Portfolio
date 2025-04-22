@@ -20,3 +20,9 @@ function toggleCard (button) {
 
 
 }
+
+const classEmail = document.getElementById('email');
+
+if (window.innerWidth < 1100) {
+    classEmail.style.display = "none";
+}
