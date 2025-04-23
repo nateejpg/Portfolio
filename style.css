@@ -669,7 +669,7 @@ article .icon {
 
 .hiddenFeature p{
   color: white;
-  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-size: clamp(0.5rem, 2vw, 1.2rem);
   padding: 25px;
   font-weight: 100;
 }
@@ -799,6 +799,11 @@ filter: invert(0.7);
 
 .footer a{
   font-size: 13px;
+}
+
+.footer p{
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .technologies {
@@ -1006,11 +1011,11 @@ nav {
   }
 
 .fa{
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .fa:hover{
-  font-size: 32px;
+  font-size: 30px;
 }
 
 .technologies {
@@ -1093,7 +1098,6 @@ nav {
 
 .hiddenFeature p {
   color: white;
-  font-size: clamp(0.5rem, 2vw, 1.2rem);
   display: flex;
   padding: 0;
   align-items: center;
