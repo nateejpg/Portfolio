@@ -144,7 +144,7 @@ nav a:hover {
 /* SECTIONS */
 
 section {
-  height: 85vh;
+  height: 100%;
   display: flex;
   align-items: center;
   margin: 0 10rem;
@@ -154,6 +154,11 @@ section {
 
 .section-container {
   display: flex;
+  width: 100%;
+  height: 100vh;
+  gap: 10vw;
+  align-items: center;
+  justify-content: center;
 }
 
 /* PROFILE SECTION */
@@ -164,19 +169,7 @@ section {
   gap: 5rem;
   height: 80vh;
 }
-
-.section__pic-container {
-     width: 275px;
-     height: 275px;
-     margin: 0 auto 2rem;
-} 
     
-  img {
-  width: 500px;
-  height: 500px;
-  display: flex;
-  margin: auto 0;
-}
 
 
 .section__text {
@@ -347,16 +340,20 @@ section {
 }
 
 .about-containers {
+  display: flex;
+  align-items: center;
   gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
 }
 
 .about-details-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
   justify-content: center;
   flex-direction: column;
   text-align: center;
   gap: 15px;
+  align-items: center;
 }
 
 .about-details-container img{
@@ -381,11 +378,6 @@ section {
 
 }
 
-.about-containers,
-.about-details-container {
-  display: flex;
-}
-
 .about-pic {
   border-radius: 2rem;
 }
@@ -397,8 +389,8 @@ section {
 }
 
 .details-container {
-  width: 100px;
-  height: 250px;
+  width: 100%;
+  height: 100%;
   display: flex;
   gap: "5px";
   align-items: center;
@@ -414,11 +406,6 @@ section {
 
 .details-container h3{
   font-weight: 300;
-}
-
-.section-container {
-  gap: 10rem;
-  height: 80%;
 }
 
 .section__pic-container {
@@ -459,16 +446,15 @@ section {
 
 }
 
+
 .fa{
-  font-size: 80px;
+  font-size: clamp(3rem, 10%, 4rem);
   transition: 0.4s;
-
-
 }
 
 .fa:hover{
   cursor: pointer;
-  font-size: 100px;
+  font-size: clamp(3.5rem, 10%, 4rem);
 
 }
 
@@ -625,9 +611,9 @@ article .icon {
   height: 40vh;
 }
 
-.certificatesWrapper img{
-    width: 35vw;
-    height: 45vh;
+.certificatesWrapper img {
+  width: 35vw;
+  height: 45vh;
 }
 
 .wrappedContainer{
@@ -680,9 +666,10 @@ article .icon {
   justify-content: center;
   text-align: center;
 }
+
 .hiddenFeature p{
   color: white;
-  font-size: 25px;
+  font-size: clamp(1rem, 2vw, 1.2rem);
   padding: 25px;
   font-weight: 100;
 }
@@ -778,17 +765,18 @@ filter: invert(0.7);
 }
 
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 1200px){
 
   .idiomas{
     height: 100px;
     width: 300px;
-    margin: 7rem;
+    margin: 1rem;
   }
 
-  .fa{
-    font-size: 30px;
-  }
+  .fa {
+    font-size: clamp(3rem, 10vw, 4rem);
+    transition: 0.4s;
+}
 
 .section__pic-container .links img{
   display: flex;
@@ -944,10 +932,6 @@ nav {
   font-weight: 300;
 }
 
-.technologies-container {
-  height: 50px;
-}
-
 .section__pic-container {
     width: auto;
     gap: 5px;
@@ -1045,7 +1029,7 @@ nav {
 .technologies-container {
     height: 80px;
     gap: 5px;
-    width: 43vw;
+    width: 44vw;
 }
 
 #experience,
@@ -1109,7 +1093,7 @@ nav {
 
 .hiddenFeature p {
   color: white;
-  font-size: clamp(0.5rem, 2vw, 2rem);
+  font-size: clamp(0.5rem, 2vw, 1.2rem);
   display: flex;
   padding: 0;
   align-items: center;
@@ -1126,11 +1110,6 @@ nav {
   font-size: 50px;
 }
 
-.idiomas {
-  height: 100px;
-  width: 300px;
-  margin: 2rem;
-}
 
 .wrappedContainer a img{
   width: 40vw;
