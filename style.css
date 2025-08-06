@@ -482,6 +482,7 @@ section {
   position: relative;
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   gap: 2vh;
   height: 100vh;
@@ -613,9 +614,18 @@ article .icon {
   height: 40vh;
 }
 
+.certificatesWrapper{
+  display: flex;
+  width: 100vw;
+  overflow: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
 .certificatesWrapper img {
   width: 35vw;
-  height: 45vh;
+  height: 40vh;
 }
 
 .wrappedContainer{
@@ -952,11 +962,16 @@ nav {
   display: none;
 }
 
-.certificatesWrapper img {
-  width: 90vw;
-  height: 30vh;
+.certificatesWrapper{
+  width: 100%;
+  gap: 1.2vh;
+  justify-content:initial;
 }
 
+.certificatesWrapper img {
+    width: 89vw;
+    height: 35vh;
+}
 .section__pic-container {
   width: 275px;
   margin: 0 auto 2rem;
