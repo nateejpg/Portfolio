@@ -616,14 +616,15 @@ article .icon {
 
 .certificatesWrapper{
   display: flex;
-  overflow: auto;
+  overflow-x: auto;
   align-items: center;
-  justify-content: center;
-  gap: 10px;
+  justify-content: left;
+  gap: 20px;
+  width: 100%;
 }
 
 .certificatesWrapper img {
-  width: 35vw;
+  width: 26vw;
   height: 40vh;
 }
 
